@@ -1,42 +1,30 @@
 #include <gtk/gtk.h>
-typedef struct vol vol;
-struct vol{
-char id[30];
-char depart[30];
-char destination[30];
-char companie[30];
-char date_depart[30];
-char date_retour[30];
-int nbVols;
-int prix;
-};
-  int i;
-  GtkWidget *acceuil;
-  GtkWidget *gestion_vol;
+
 
 void
-on_Acceuilgestion_clicked              (GtkButton       *button,
+on_ajouter_clicked                     (GtkWidget	*objet_graphique,
                                         gpointer         user_data);
 
 void
-on_gestionAcceuil_clicked              (GtkButton       *button,
+on_afficher_clicked                    (GtkWidget	*objet_graphique,
                                         gpointer         user_data);
 
 void
-on_Ajouter_clicked                     (GtkButton       *button,
+on_envoyer_clicked                     (GtkWidget	*objet_graphique,
                                         gpointer         user_data);
 
 void
-on_treeview1_row_activated             (GtkTreeView     *treeview,
-                                        GtkTreePath     *path,
-                                        GtkTreeViewColumn *column,
+on_retour1_clicked                      (GtkWidget	*objet_graphique,
                                         gpointer         user_data);
 
 void
-on_Supprimer_clicked                   (GtkButton       *button,
+on_retour2_clicked                     (GtkWidget	*objet_graphique,
                                         gpointer         user_data);
 
 void
-on_Modifier_clicked                    (GtkButton       *button,
+on_Afficher_Repondus_clicked           (GtkWidget	*objet_graphique,
                                         gpointer         user_data);
 
+void
+on_retour3_clicked                      (GtkWidget	*objet_graphique,
+                                        gpointer         user_data);
