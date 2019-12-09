@@ -10,8 +10,4 @@ char adresse[100];
 } compte;
 
 void ajouter_compte(compte c);
-void modifier_compte(compte c ,char cin[]);
-void supprime_compte(compte c ,char cin[] );
 void afficher_compte(GtkWidget *liste);
- 
- 
