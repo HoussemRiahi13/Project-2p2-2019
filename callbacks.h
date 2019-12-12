@@ -2,19 +2,11 @@
 
 
 void
-on_ajouter_clicked                     (GtkWidget	*objet_graphique,
+on_Repondre_clicked                    (GtkWidget	*objet_graphique,
                                         gpointer         user_data);
 
 void
-on_afficher_clicked                    (GtkWidget	*objet_graphique,
-                                        gpointer         user_data);
-
-void
-on_envoyer_clicked                     (GtkWidget	*objet_graphique,
-                                        gpointer         user_data);
-
-void
-on_retour1_clicked                      (GtkWidget	*objet_graphique,
+on_liste_clicked                       (GtkWidget	*objet_graphique,
                                         gpointer         user_data);
 
 void
@@ -22,15 +14,23 @@ on_retour2_clicked                     (GtkWidget	*objet_graphique,
                                         gpointer         user_data);
 
 void
-on_Afficher_Repondus_clicked           (GtkWidget	*objet_graphique,
+on_button4_clicked                     (GtkWidget	*objet_graphique,
                                         gpointer         user_data);
 
 void
-on_retour3_clicked                      (GtkWidget	*objet_graphique,
+on_retour_clicked                      (GtkWidget	*objet_graphique,
                                         gpointer         user_data);
 
 void
-on_modifier_clicked                    (GtkWidget	*objet_graphique,
+on_modifier2_clicked                   (GtkWidget	*objet_graphique,
+                                        gpointer         user_data);
+
+void
+on_Supprimer3_clicked                  (GtkWidget	*objet_graphique,
+                                        gpointer         user_data);
+
+void
+on_envoyer3_clicked                    (GtkWidget	*objet_graphique,
                                         gpointer         user_data);
 
 void
@@ -38,19 +38,7 @@ on_retour4_clicked                     (GtkWidget	*objet_graphique,
                                         gpointer         user_data);
 
 void
-on_envoyer_clicked                     (GtkWidget	*objet_graphique,
-                                        gpointer         user_data);
-
-void
-on_envoyer1_clicked                    (GtkWidget	*objet_graphique,
-                                        gpointer         user_data);
-
-void
-on_Supprime_clicked                    (GtkWidget	*objet_graphique,
-                                        gpointer         user_data);
-
-void
-on_supprimer2_clicked                  (GtkWidget	*objet_graphique,
+on_supprime_clicked                    (GtkWidget	*objet_graphique,
                                         gpointer         user_data);
 
 void
